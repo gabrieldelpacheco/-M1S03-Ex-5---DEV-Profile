@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal_title {
+    padding: 10px 20px;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(41, 9, 226, 0.5)20%, rgba(37, 236, 243, 0.5)60%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form_name {
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(41, 9, 226, 0.5)20%, rgba(37, 236, 243, 0.5)60%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.form_button {
+    height: 40px;
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(41, 9, 226, 0.5)20%, rgba(37, 236, 243, 0.5)60%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.perfil {
+    display: flex;
+    margin: 25vh 50vh;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 750px;
+    height: 200px;
+    background-image: linear-gradient(rgba(41, 9, 226, 0.5) 20%, rgba(37, 236, 243, 0.5) 60%);
+}
+
+
+#avatar_url {
+    box-shadow: 1px 1px 1px 0.5px rgba(137, 55, 204, 0.5);
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    margin: 20px 0 15px 30px;
+    display: inline-block;
+    flex-direction: flex;
+}
+
+.perfil_dados {
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#name {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0vh 2vh 0 05vh;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+#bio {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#location {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#html_url {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
